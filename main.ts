@@ -5,13 +5,13 @@
  * This program displays the temperature
 */
 
+basic.clearScreen()
+basic.showIcon(IconNames.Happy)
+
 // show temperature
 let currentTemperature = input.temperature();
 
 input.onButtonPressed(Button.A, function () {
-
-basic.clearScreen()
-basic.showIcon(IconNames.Happy)
 
 // read temperature
 basic.showString('The temperature is:')
