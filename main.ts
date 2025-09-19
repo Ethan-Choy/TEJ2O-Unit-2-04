@@ -2,7 +2,7 @@
  *
  * Created by: Ethan Choy
  * Created on: Sep 2025
- * This program shows the temperature
+ * This program displays the temperature
 */
 
 // show temperature
