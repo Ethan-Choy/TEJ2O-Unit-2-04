@@ -9,16 +9,11 @@ let currentTemperature: number
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
-
 // show temperature
 currentTemperature = input.temperature();
 
 input.onButtonPressed(Button.A, function () {
-
-// read temperature
 basic.showString('The temperature is:')
-
-// display on LED screen
 basic.showNumber(currentTemperature)
 basic.showString('C.')
 })
