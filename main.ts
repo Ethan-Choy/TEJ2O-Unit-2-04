@@ -8,6 +8,7 @@
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
+
 // show temperature
 let currentTemperature = input.temperature();
 
