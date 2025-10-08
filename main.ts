@@ -7,9 +7,10 @@
 
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
+let currentTemperature: number
 
 // show temperature
-let currentTemperature = input.temperature();
+currentTemperature = input.temperature();
 
 input.onButtonPressed(Button.A, function () {
 
