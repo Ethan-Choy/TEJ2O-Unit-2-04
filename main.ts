@@ -18,6 +18,6 @@ input.onButtonPressed(Button.A, function () {
     basic.showString('The temperature is:')
 
     // display on LED screen
-    basic.showNumber(currentTemperature)
+    basic.showNumber(currentTemperature = input.temperature() )
     basic.showString('C.')
 })
