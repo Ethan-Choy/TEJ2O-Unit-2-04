@@ -10,7 +10,6 @@ basic.showIcon(IconNames.Happy)
 let currentTemperature = input.temperature();
 
 // show temperature
-
 input.onButtonPressed(Button.A, function () {
 
     // read temperature
