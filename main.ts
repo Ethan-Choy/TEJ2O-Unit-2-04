@@ -5,17 +5,18 @@
  * This program shows the temperature
 */
 
+// variable
+let temperatureInCelsius: number
+
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
-let currentTemperature = input.temperature();
 
-// show temperature
+// when button A is pressed, it shows the temperature
 input.onButtonPressed(Button.A, function () {
-
-    // read temperature
-    basic.showString('The temperature is:')
-
-    // display on LED screen
-    basic.showNumber(currentTemperature)
-    basic.showString('C.')
+    //show the temperature
+    basic.showString("The temperature is :")
+    temperatureInCelsius = input.temperature()
+    basic.showNumber(temperatureInCelsius)
+    basic.showString("C.")
+    basic.showIcon(IconNames.Happy)
 })
